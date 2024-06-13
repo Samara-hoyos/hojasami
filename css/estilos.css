@@ -205,3 +205,35 @@ footer a{
 .flecha a{
   color: black;
 }
+
+#menu-toggle{
+  display: none;
+}
+@media (max-width: 600px) {
+  .menu-items {
+      flex-direction: column;
+      display: none; 
+  }
+  .menu-icon {
+      display: block;
+  }
+  #menu-toggle:checked + .menu-icon + .menu-items {
+      display: flex;
+    }
+  #habilidades .col{
+    width: 100%
+  }
+  #estudios .col{
+    width: 90%;
+  }
+  #contactos .col{
+    width: 90%;
+  }
+  #contactos .col mapa{
+    width: 40%;
+  }
+  .fa-brands{
+    width: 30%;
+  }
+
+  }
