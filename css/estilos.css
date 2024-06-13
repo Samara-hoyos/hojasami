@@ -1,0 +1,207 @@
+*{
+  margin: 0; /*margen espacio externo*/
+  padding: 0; /*margen expacio
+}
+/* ajustes de pagina */
+body{
+  background: rgb(248, 248, 248); /*color fondo*/
+  color: black; /*color letra*/
+  text-align: center; /*alineacion texto*/
+  font-size: 1em; /*tamaño de letra*/
+  font-family: Georgia, 'Times New Roman', Times, serif; /*fuente de letra*/
+}
+nav{
+  background: rgba(0, 0, 0, 0.219);
+  color: aqua ;
+  width: 100%;
+  position: fixed
+}
+nav ul li{
+  display: inline-block; 
+  margin-right: 2em;
+  line-height: 4em;
+}
+nav a{
+  color: rgba(0, 225, 255, 0.801);
+  font-size: 1.3em;
+  text-decoration: none; /*decoracion de texto = ninguna*/
+  margin: 2em;
+}
+
+header a{
+  color: aqua;
+}
+nav ul li a:hover{
+  color: aliceblue;
+}
+
+header{
+background-image: url('../img/fondo-vintage-3.jpg') ;
+background-repeat: no-repeat;
+background-size: cover;
+text-shadow: 3px -6px 5px black;
+padding: 2em 0em;
+}
+
+.mi-foto{
+border-radius: 50%;
+border: 5px aqua solid;
+width: 10%;
+}
+
+/* #prueba{
+  border: 2px red solid;
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px; */
+}
+
+#hola{
+  color: black;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+section{
+  width: 80%;
+  padding: 2em;
+  margin: 2em auto;
+  box-shadow: 10px 10px 50px 5px navy;
+}
+
+section h2{
+  border-bottom: 4px dashed black;
+  margin: 2em 0;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#perfil p{
+  margin: 1em;
+  padding: 2em;
+}
+
+footer{
+  background: black;
+  color: aliceblue;
+  padding: 3em;
+}
+
+.destacado{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+}
+
+
+
+.uno:hover{
+  color: black;
+  background: blue;
+  font-size: 1em;
+  margin: 3em;
+  padding: 2em;
+  box-shadow: 5px 10px 3px 5px navy;
+  width: 20%;
+  border-radius: 20em;
+  
+}
+.dos:hover{
+  background: rgb(35, 35, 40);
+  font-size: 1em;
+  margin: 2em;
+  padding: 2em;
+  box-shadow: 10px 10px 50px 5px rgb(62, 62, 106);
+  width: 20%;
+  border-radius: 20em;
+  color: blue;
+}
+
+.fila{
+  /* border: 1px red dashed; */
+  margin-bottom: 1em;
+}
+
+.col {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#estudios .col{
+  /* border: 1px rgb(255, 174, 0)dashed; */
+  width: 45%;
+  
+}
+
+#habilidades .col{
+/* border: 1px red dashed;*/
+  width: 30%;
+  
+}
+/*las imagenes se adecua */
+img{
+  max-width: 100%;
+}
+
+.logos{
+  width: 30%;
+  display: inline-block;
+}
+
+.texto{
+  width: 60%;
+  display: inline-block;
+}
+
+#proyecto .col{
+  width: 45%;
+  margin-left: 12em;
+}
+
+.formulario{
+  display: block;
+  border: 3px aqua solid;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+#contactos .col{
+  width: 25%;
+}
+#contacto .mapa{
+  width: 40%;
+}
+#contacto .h3{
+  width: 1em;
+}
+
+footer i{
+  font-size: 3em;
+  margin: 0.5em 0.3em;
+}
+
+footer a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.flecha{
+  box-shadow: 0em 0px 3px 3px;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  background: rgba(144, 145, 146, 0.534);
+  color: black;
+  font-size: 2em;
+  padding: 0.5px;
+}
+
+.flecha a{
+  color: black;
+}
